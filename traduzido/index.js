@@ -7895,15 +7895,7 @@ if (isBanned) return reply(mess.only.benned)
 					const ule = elu[Math.floor(Math.random() * elu.length)]
 					client.sendMessage(from, ule, text, { quoted: mek })
 					break
-					case 'toxic':
-					if (isBanned) return reply(mess.only.benned)    
-				if (!isUser) return reply(mess.only.userB)
-					if (!isPublic) return reply(mess.only.public)
-					kapankah = body.slice(1)
-					const toxic =['anjing','babi lu','anak anjing','udah tolol nub Lagi','muka lo kek monyet','udah jomblo sendirian lagi dirumah tolol','so so an mau punya pacar muka aja kek monyet lepass dari kandang','ganteng doang di toxic aja dibilang baperan','pantek kau','bangsat kau','ku entod kalian nangis kau','memek lu semua','lihat anak anjing lagi baca','ganteng doang jemput cewe dipanggang','kamu cantik beb bullshit anjing cowo buaya','anak dajjal','puki lu','anjing ngajak gelud','sama hantu takut cupu ngentod','cupu cupu aja gausah bacot','kontol lu semua','bocah lu semua kontol','3 Hari Lagi']
-					const ole = toxic[Math.floor(Math.random() * toxic.length)]
-					client.sendMessage(from, ole, text, { quoted: mek })
-					break
+					
 				case 'truth':
 				if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
